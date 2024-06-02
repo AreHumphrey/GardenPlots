@@ -105,9 +105,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewТипРельефа)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewУчасток)).BeginInit();
             this.SuspendLayout();
-            // 
-            // tabControl
-            // 
+            
+            
+            
             this.tabControl.Controls.Add(this.tabPageAddData);
             this.tabControl.Controls.Add(this.tabPageViewData);
             this.tabControl.Location = new System.Drawing.Point(12, 12);
@@ -115,9 +115,9 @@
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(1297, 685);
             this.tabControl.TabIndex = 0;
-            // 
-            // tabPageAddData
-            // 
+            
+            
+            
             this.tabPageAddData.Controls.Add(this.groupBoxСадовоеОбщество);
             this.tabPageAddData.Controls.Add(this.groupBoxТипРельефа);
             this.tabPageAddData.Controls.Add(this.groupBoxТипПочвы);
@@ -132,9 +132,9 @@
             this.tabPageAddData.TabIndex = 0;
             this.tabPageAddData.Text = "Добавление данных";
             this.tabPageAddData.UseVisualStyleBackColor = true;
-            // 
-            // groupBoxСадовоеОбщество
-            // 
+            
+            
+            
             this.groupBoxСадовоеОбщество.Controls.Add(this.labelСадовоеОбществоПредседатель);
             this.groupBoxСадовоеОбщество.Controls.Add(this.labelСадовоеОбществоНазвание);
             this.groupBoxСадовоеОбщество.Controls.Add(this.textBoxСадовоеОбществоПредседатель);
@@ -146,41 +146,41 @@
             this.groupBoxСадовоеОбщество.TabIndex = 0;
             this.groupBoxСадовоеОбщество.TabStop = false;
             this.groupBoxСадовоеОбщество.Text = "Садовое Общество";
-            // 
-            // labelСадовоеОбществоПредседатель
-            // 
+            
+            
+            
             this.labelСадовоеОбществоПредседатель.AutoSize = true;
             this.labelСадовоеОбществоПредседатель.Location = new System.Drawing.Point(10, 20);
             this.labelСадовоеОбществоПредседатель.Name = "labelСадовоеОбществоПредседатель";
             this.labelСадовоеОбществоПредседатель.Size = new System.Drawing.Size(103, 17);
             this.labelСадовоеОбществоПредседатель.TabIndex = 1;
             this.labelСадовоеОбществоПредседатель.Text = "Председатель";
-            // 
-            // labelСадовоеОбществоНазвание
-            // 
+            
+            
+            
             this.labelСадовоеОбществоНазвание.AutoSize = true;
             this.labelСадовоеОбществоНазвание.Location = new System.Drawing.Point(10, 60);
             this.labelСадовоеОбществоНазвание.Name = "labelСадовоеОбществоНазвание";
             this.labelСадовоеОбществоНазвание.Size = new System.Drawing.Size(72, 17);
             this.labelСадовоеОбществоНазвание.TabIndex = 2;
             this.labelСадовоеОбществоНазвание.Text = "Название";
-            // 
-            // textBoxСадовоеОбществоПредседатель
-            // 
+            
+            
+            
             this.textBoxСадовоеОбществоПредседатель.Location = new System.Drawing.Point(10, 35);
             this.textBoxСадовоеОбществоПредседатель.Name = "textBoxСадовоеОбществоПредседатель";
             this.textBoxСадовоеОбществоПредседатель.Size = new System.Drawing.Size(180, 22);
             this.textBoxСадовоеОбществоПредседатель.TabIndex = 3;
-            // 
-            // textBoxСадовоеОбществоНазвание
-            // 
+            
+            
+            
             this.textBoxСадовоеОбществоНазвание.Location = new System.Drawing.Point(10, 75);
             this.textBoxСадовоеОбществоНазвание.Name = "textBoxСадовоеОбществоНазвание";
             this.textBoxСадовоеОбществоНазвание.Size = new System.Drawing.Size(180, 22);
             this.textBoxСадовоеОбществоНазвание.TabIndex = 4;
-            // 
-            // buttonSaveСадовоеОбщество
-            // 
+            
+            
+            
             this.buttonSaveСадовоеОбщество.Location = new System.Drawing.Point(10, 110);
             this.buttonSaveСадовоеОбщество.Name = "buttonSaveСадовоеОбщество";
             this.buttonSaveСадовоеОбщество.Size = new System.Drawing.Size(180, 23);
@@ -188,9 +188,9 @@
             this.buttonSaveСадовоеОбщество.Text = "Сохранить";
             this.buttonSaveСадовоеОбщество.UseVisualStyleBackColor = true;
             this.buttonSaveСадовоеОбщество.Click += new System.EventHandler(this.buttonSaveСадовоеОбщество_Click);
-            // 
-            // groupBoxТипРельефа
-            // 
+            
+            
+            
             this.groupBoxТипРельефа.Controls.Add(this.labelТипРельефаНазвание);
             this.groupBoxТипРельефа.Controls.Add(this.textBoxТипРельефаНазвание);
             this.groupBoxТипРельефа.Controls.Add(this.buttonSaveТипРельефа);
@@ -200,25 +200,25 @@
             this.groupBoxТипРельефа.TabIndex = 1;
             this.groupBoxТипРельефа.TabStop = false;
             this.groupBoxТипРельефа.Text = "Тип Рельефа";
-            // 
-            // labelТипРельефаНазвание
-            // 
+           
+            
+            
             this.labelТипРельефаНазвание.AutoSize = true;
             this.labelТипРельефаНазвание.Location = new System.Drawing.Point(10, 20);
             this.labelТипРельефаНазвание.Name = "labelТипРельефаНазвание";
             this.labelТипРельефаНазвание.Size = new System.Drawing.Size(72, 17);
             this.labelТипРельефаНазвание.TabIndex = 1;
             this.labelТипРельефаНазвание.Text = "Название";
-            // 
-            // textBoxТипРельефаНазвание
-            // 
+            
+            
+            
             this.textBoxТипРельефаНазвание.Location = new System.Drawing.Point(10, 35);
             this.textBoxТипРельефаНазвание.Name = "textBoxТипРельефаНазвание";
             this.textBoxТипРельефаНазвание.Size = new System.Drawing.Size(180, 22);
             this.textBoxТипРельефаНазвание.TabIndex = 3;
-            // 
-            // buttonSaveТипРельефа
-            // 
+            
+            
+            
             this.buttonSaveТипРельефа.Location = new System.Drawing.Point(10, 110);
             this.buttonSaveТипРельефа.Name = "buttonSaveТипРельефа";
             this.buttonSaveТипРельефа.Size = new System.Drawing.Size(180, 23);
@@ -226,9 +226,9 @@
             this.buttonSaveТипРельефа.Text = "Сохранить";
             this.buttonSaveТипРельефа.UseVisualStyleBackColor = true;
             this.buttonSaveТипРельефа.Click += new System.EventHandler(this.buttonSaveТипРельефа_Click);
-            // 
-            // groupBoxТипПочвы
-            // 
+            
+            
+            
             this.groupBoxТипПочвы.Controls.Add(this.labelТипПочвыНазвание);
             this.groupBoxТипПочвы.Controls.Add(this.textBoxТипПочвыНазвание);
             this.groupBoxТипПочвы.Controls.Add(this.buttonSaveТипПочвы);
@@ -238,25 +238,25 @@
             this.groupBoxТипПочвы.TabIndex = 2;
             this.groupBoxТипПочвы.TabStop = false;
             this.groupBoxТипПочвы.Text = "Тип Почвы";
-            // 
-            // labelТипПочвыНазвание
-            // 
+           
+            
+            
             this.labelТипПочвыНазвание.AutoSize = true;
             this.labelТипПочвыНазвание.Location = new System.Drawing.Point(10, 20);
             this.labelТипПочвыНазвание.Name = "labelТипПочвыНазвание";
             this.labelТипПочвыНазвание.Size = new System.Drawing.Size(72, 17);
             this.labelТипПочвыНазвание.TabIndex = 1;
             this.labelТипПочвыНазвание.Text = "Название";
-            // 
-            // textBoxТипПочвыНазвание
-            // 
+           
+            
+            
             this.textBoxТипПочвыНазвание.Location = new System.Drawing.Point(10, 35);
             this.textBoxТипПочвыНазвание.Name = "textBoxТипПочвыНазвание";
             this.textBoxТипПочвыНазвание.Size = new System.Drawing.Size(180, 22);
             this.textBoxТипПочвыНазвание.TabIndex = 3;
-            // 
-            // buttonSaveТипПочвы
-            // 
+            
+            
+            
             this.buttonSaveТипПочвы.Location = new System.Drawing.Point(10, 110);
             this.buttonSaveТипПочвы.Name = "buttonSaveТипПочвы";
             this.buttonSaveТипПочвы.Size = new System.Drawing.Size(180, 23);
@@ -264,9 +264,9 @@
             this.buttonSaveТипПочвы.Text = "Сохранить";
             this.buttonSaveТипПочвы.UseVisualStyleBackColor = true;
             this.buttonSaveТипПочвы.Click += new System.EventHandler(this.buttonSaveТипПочвы_Click);
-            // 
-            // groupBoxВладелецУчастка
-            // 
+           
+            
+            
             this.groupBoxВладелецУчастка.Controls.Add(this.labelВладелецФамилия);
             this.groupBoxВладелецУчастка.Controls.Add(this.labelВладелецИмя);
             this.groupBoxВладелецУчастка.Controls.Add(this.labelВладелецАдрес);
@@ -282,73 +282,73 @@
             this.groupBoxВладелецУчастка.TabIndex = 3;
             this.groupBoxВладелецУчастка.TabStop = false;
             this.groupBoxВладелецУчастка.Text = "Владелец Участка";
-            // 
-            // labelВладелецФамилия
-            // 
+            
+            
+            
             this.labelВладелецФамилия.AutoSize = true;
             this.labelВладелецФамилия.Location = new System.Drawing.Point(10, 20);
             this.labelВладелецФамилия.Name = "labelВладелецФамилия";
             this.labelВладелецФамилия.Size = new System.Drawing.Size(70, 17);
             this.labelВладелецФамилия.TabIndex = 1;
             this.labelВладелецФамилия.Text = "Фамилия";
-            // 
-            // labelВладелецИмя
-            // 
+            
+            
+            
             this.labelВладелецИмя.AutoSize = true;
             this.labelВладелецИмя.Location = new System.Drawing.Point(10, 60);
             this.labelВладелецИмя.Name = "labelВладелецИмя";
             this.labelВладелецИмя.Size = new System.Drawing.Size(35, 17);
             this.labelВладелецИмя.TabIndex = 2;
             this.labelВладелецИмя.Text = "Имя";
-            // 
-            // labelВладелецАдрес
-            // 
+            
+            
+            
             this.labelВладелецАдрес.AutoSize = true;
             this.labelВладелецАдрес.Location = new System.Drawing.Point(10, 100);
             this.labelВладелецАдрес.Name = "labelВладелецАдрес";
             this.labelВладелецАдрес.Size = new System.Drawing.Size(48, 17);
             this.labelВладелецАдрес.TabIndex = 3;
             this.labelВладелецАдрес.Text = "Адрес";
-            // 
-            // labelВладелецНомерТелефона
-            // 
+            
+            
+            
             this.labelВладелецНомерТелефона.AutoSize = true;
             this.labelВладелецНомерТелефона.Location = new System.Drawing.Point(10, 140);
             this.labelВладелецНомерТелефона.Name = "labelВладелецНомерТелефона";
             this.labelВладелецНомерТелефона.Size = new System.Drawing.Size(123, 17);
             this.labelВладелецНомерТелефона.TabIndex = 4;
             this.labelВладелецНомерТелефона.Text = "Номер Телефона";
-            // 
-            // textBoxВладелецФамилия
-            // 
+            
+            
+            
             this.textBoxВладелецФамилия.Location = new System.Drawing.Point(10, 35);
             this.textBoxВладелецФамилия.Name = "textBoxВладелецФамилия";
             this.textBoxВладелецФамилия.Size = new System.Drawing.Size(180, 22);
             this.textBoxВладелецФамилия.TabIndex = 5;
-            // 
-            // textBoxВладелецИмя
-            // 
+            
+            
+            
             this.textBoxВладелецИмя.Location = new System.Drawing.Point(10, 75);
             this.textBoxВладелецИмя.Name = "textBoxВладелецИмя";
             this.textBoxВладелецИмя.Size = new System.Drawing.Size(180, 22);
             this.textBoxВладелецИмя.TabIndex = 6;
-            // 
-            // textBoxВладелецАдрес
-            // 
+            
+            
+            
             this.textBoxВладелецАдрес.Location = new System.Drawing.Point(10, 115);
             this.textBoxВладелецАдрес.Name = "textBoxВладелецАдрес";
             this.textBoxВладелецАдрес.Size = new System.Drawing.Size(180, 22);
             this.textBoxВладелецАдрес.TabIndex = 7;
-            // 
-            // textBoxВладелецНомерТелефона
-            // 
+            
+            
+            
             this.textBoxВладелецНомерТелефона.Location = new System.Drawing.Point(10, 155);
             this.textBoxВладелецНомерТелефона.Name = "textBoxВладелецНомерТелефона";
             this.textBoxВладелецНомерТелефона.Size = new System.Drawing.Size(180, 22);
             this.textBoxВладелецНомерТелефона.TabIndex = 8;
-            // 
-            // buttonSaveВладелецУчастка
-            // 
+            
+            
+            
             this.buttonSaveВладелецУчастка.Location = new System.Drawing.Point(10, 190);
             this.buttonSaveВладелецУчастка.Name = "buttonSaveВладелецУчастка";
             this.buttonSaveВладелецУчастка.Size = new System.Drawing.Size(180, 23);
@@ -356,9 +356,9 @@
             this.buttonSaveВладелецУчастка.Text = "Сохранить";
             this.buttonSaveВладелецУчастка.UseVisualStyleBackColor = true;
             this.buttonSaveВладелецУчастка.Click += new System.EventHandler(this.buttonSaveВладелецУчастка_Click);
-            // 
-            // groupBoxУчасток
-            // 
+            
+            
+            
             this.groupBoxУчасток.Controls.Add(this.labelУчастокСадовоеОбщество);
             this.groupBoxУчасток.Controls.Add(this.labelУчастокТипРельефа);
             this.groupBoxУчасток.Controls.Add(this.labelУчастокТипПочвы);
@@ -376,93 +376,93 @@
             this.groupBoxУчасток.TabIndex = 4;
             this.groupBoxУчасток.TabStop = false;
             this.groupBoxУчасток.Text = "Участок";
-            // 
-            // labelУчастокСадовоеОбщество
-            // 
+            
+            
+            
             this.labelУчастокСадовоеОбщество.AutoSize = true;
             this.labelУчастокСадовоеОбщество.Location = new System.Drawing.Point(10, 20);
             this.labelУчастокСадовоеОбщество.Name = "labelУчастокСадовоеОбщество";
             this.labelУчастокСадовоеОбщество.Size = new System.Drawing.Size(135, 17);
             this.labelУчастокСадовоеОбщество.TabIndex = 1;
             this.labelУчастокСадовоеОбщество.Text = "Садовое Общество";
-            // 
-            // labelУчастокТипРельефа
-            // 
+            
+            
+            
             this.labelУчастокТипРельефа.AutoSize = true;
             this.labelУчастокТипРельефа.Location = new System.Drawing.Point(10, 60);
             this.labelУчастокТипРельефа.Name = "labelУчастокТипРельефа";
             this.labelУчастокТипРельефа.Size = new System.Drawing.Size(96, 17);
             this.labelУчастокТипРельефа.TabIndex = 2;
             this.labelУчастокТипРельефа.Text = "Тип Рельефа";
-            // 
-            // labelУчастокТипПочвы
-            // 
+            
+            
+            
             this.labelУчастокТипПочвы.AutoSize = true;
             this.labelУчастокТипПочвы.Location = new System.Drawing.Point(10, 100);
             this.labelУчастокТипПочвы.Name = "labelУчастокТипПочвы";
             this.labelУчастокТипПочвы.Size = new System.Drawing.Size(80, 17);
             this.labelУчастокТипПочвы.TabIndex = 3;
             this.labelУчастокТипПочвы.Text = "Тип Почвы";
-            // 
-            // labelУчастокПлощадь
-            // 
+            
+            
+            
             this.labelУчастокПлощадь.AutoSize = true;
             this.labelУчастокПлощадь.Location = new System.Drawing.Point(10, 140);
             this.labelУчастокПлощадь.Name = "labelУчастокПлощадь";
             this.labelУчастокПлощадь.Size = new System.Drawing.Size(68, 17);
             this.labelУчастокПлощадь.TabIndex = 4;
             this.labelУчастокПлощадь.Text = "Площадь";
-            // 
-            // labelУчастокСтатус
-            // 
+            
+            
+            
             this.labelУчастокСтатус.AutoSize = true;
             this.labelУчастокСтатус.Location = new System.Drawing.Point(10, 180);
             this.labelУчастокСтатус.Name = "labelУчастокСтатус";
             this.labelУчастокСтатус.Size = new System.Drawing.Size(53, 17);
             this.labelУчастокСтатус.TabIndex = 5;
             this.labelУчастокСтатус.Text = "Статус";
-            // 
-            // comboBoxУчастокСадовоеОбщество
-            // 
+            
+            
+            
             this.comboBoxУчастокСадовоеОбщество.FormattingEnabled = true;
             this.comboBoxУчастокСадовоеОбщество.Location = new System.Drawing.Point(10, 35);
             this.comboBoxУчастокСадовоеОбщество.Name = "comboBoxУчастокСадовоеОбщество";
             this.comboBoxУчастокСадовоеОбщество.Size = new System.Drawing.Size(180, 24);
             this.comboBoxУчастокСадовоеОбщество.TabIndex = 6;
-            // 
-            // comboBoxУчастокТипРельефа
-            // 
+            
+            
+            
             this.comboBoxУчастокТипРельефа.FormattingEnabled = true;
             this.comboBoxУчастокТипРельефа.Location = new System.Drawing.Point(10, 75);
             this.comboBoxУчастокТипРельефа.Name = "comboBoxУчастокТипРельефа";
             this.comboBoxУчастокТипРельефа.Size = new System.Drawing.Size(180, 24);
             this.comboBoxУчастокТипРельефа.TabIndex = 7;
-            // 
-            // comboBoxУчастокТипПочвы
-            // 
+            
+            
+            
             this.comboBoxУчастокТипПочвы.FormattingEnabled = true;
             this.comboBoxУчастокТипПочвы.Location = new System.Drawing.Point(10, 115);
             this.comboBoxУчастокТипПочвы.Name = "comboBoxУчастокТипПочвы";
             this.comboBoxУчастокТипПочвы.Size = new System.Drawing.Size(180, 24);
             this.comboBoxУчастокТипПочвы.TabIndex = 8;
-            // 
-            // textBoxУчастокПлощадь
-            // 
+            
+            
+            
             this.textBoxУчастокПлощадь.Location = new System.Drawing.Point(10, 155);
             this.textBoxУчастокПлощадь.Name = "textBoxУчастокПлощадь";
             this.textBoxУчастокПлощадь.Size = new System.Drawing.Size(180, 22);
             this.textBoxУчастокПлощадь.TabIndex = 9;
-            // 
-            // comboBoxУчастокСтатус
-            // 
+            
+            
+            
             this.comboBoxУчастокСтатус.FormattingEnabled = true;
             this.comboBoxУчастокСтатус.Location = new System.Drawing.Point(10, 195);
             this.comboBoxУчастокСтатус.Name = "comboBoxУчастокСтатус";
             this.comboBoxУчастокСтатус.Size = new System.Drawing.Size(180, 24);
             this.comboBoxУчастокСтатус.TabIndex = 10;
-            // 
-            // buttonSaveУчасток
-            // 
+            
+            
+            
             this.buttonSaveУчасток.Location = new System.Drawing.Point(10, 230);
             this.buttonSaveУчасток.Name = "buttonSaveУчасток";
             this.buttonSaveУчасток.Size = new System.Drawing.Size(180, 23);
@@ -470,9 +470,9 @@
             this.buttonSaveУчасток.Text = "Сохранить";
             this.buttonSaveУчасток.UseVisualStyleBackColor = true;
             this.buttonSaveУчасток.Click += new System.EventHandler(this.buttonSaveУчасток_Click);
-            // 
-            // groupBoxДоговор
-            // 
+            
+            
+            
             this.groupBoxДоговор.Controls.Add(this.labelДоговорУчасток);
             this.groupBoxДоговор.Controls.Add(this.labelДоговорВладелец);
             this.groupBoxДоговор.Controls.Add(this.labelДоговорДатаНачала);
@@ -488,75 +488,75 @@
             this.groupBoxДоговор.TabIndex = 5;
             this.groupBoxДоговор.TabStop = false;
             this.groupBoxДоговор.Text = "Договор";
-            // 
-            // labelДоговорУчасток
-            // 
+            
+            
+            
             this.labelДоговорУчасток.AutoSize = true;
             this.labelДоговорУчасток.Location = new System.Drawing.Point(10, 20);
             this.labelДоговорУчасток.Name = "labelДоговорУчасток";
             this.labelДоговорУчасток.Size = new System.Drawing.Size(62, 17);
             this.labelДоговорУчасток.TabIndex = 1;
             this.labelДоговорУчасток.Text = "Участок";
-            // 
-            // labelДоговорВладелец
-            // 
+            
+            
+            
             this.labelДоговорВладелец.AutoSize = true;
             this.labelДоговорВладелец.Location = new System.Drawing.Point(10, 60);
             this.labelДоговорВладелец.Name = "labelДоговорВладелец";
             this.labelДоговорВладелец.Size = new System.Drawing.Size(73, 17);
             this.labelДоговорВладелец.TabIndex = 2;
             this.labelДоговорВладелец.Text = "Владелец";
-            // 
-            // labelДоговорДатаНачала
-            // 
+            
+            
+            
             this.labelДоговорДатаНачала.AutoSize = true;
             this.labelДоговорДатаНачала.Location = new System.Drawing.Point(10, 100);
             this.labelДоговорДатаНачала.Name = "labelДоговорДатаНачала";
             this.labelДоговорДатаНачала.Size = new System.Drawing.Size(96, 17);
             this.labelДоговорДатаНачала.TabIndex = 3;
             this.labelДоговорДатаНачала.Text = "Дата Начала";
-            // 
-            // labelДоговорДатаОкончания
-            // 
+            
+            
+            
             this.labelДоговорДатаОкончания.AutoSize = true;
             this.labelДоговорДатаОкончания.Location = new System.Drawing.Point(10, 140);
             this.labelДоговорДатаОкончания.Name = "labelДоговорДатаОкончания";
             this.labelДоговорДатаОкончания.Size = new System.Drawing.Size(120, 17);
             this.labelДоговорДатаОкончания.TabIndex = 4;
             this.labelДоговорДатаОкончания.Text = "Дата Окончания";
-            // 
-            // comboBoxДоговорУчасток
-            // 
+            
+            
+            
             this.comboBoxДоговорУчасток.FormattingEnabled = true;
             this.comboBoxДоговорУчасток.Location = new System.Drawing.Point(10, 35);
             this.comboBoxДоговорУчасток.Name = "comboBoxДоговорУчасток";
             this.comboBoxДоговорУчасток.Size = new System.Drawing.Size(180, 24);
             this.comboBoxДоговорУчасток.TabIndex = 5;
-            // 
-            // comboBoxДоговорВладелец
-            // 
+            
+            
+            
             this.comboBoxДоговорВладелец.FormattingEnabled = true;
             this.comboBoxДоговорВладелец.Location = new System.Drawing.Point(10, 75);
             this.comboBoxДоговорВладелец.Name = "comboBoxДоговорВладелец";
             this.comboBoxДоговорВладелец.Size = new System.Drawing.Size(180, 24);
             this.comboBoxДоговорВладелец.TabIndex = 6;
-            // 
-            // dateTimePickerДоговорДатаНачала
-            // 
+            
+            
+            
             this.dateTimePickerДоговорДатаНачала.Location = new System.Drawing.Point(10, 115);
             this.dateTimePickerДоговорДатаНачала.Name = "dateTimePickerДоговорДатаНачала";
             this.dateTimePickerДоговорДатаНачала.Size = new System.Drawing.Size(180, 22);
             this.dateTimePickerДоговорДатаНачала.TabIndex = 7;
-            // 
-            // dateTimePickerДоговорДатаОкончания
-            // 
+            
+            
+            
             this.dateTimePickerДоговорДатаОкончания.Location = new System.Drawing.Point(10, 155);
             this.dateTimePickerДоговорДатаОкончания.Name = "dateTimePickerДоговорДатаОкончания";
             this.dateTimePickerДоговорДатаОкончания.Size = new System.Drawing.Size(180, 22);
             this.dateTimePickerДоговорДатаОкончания.TabIndex = 8;
-            // 
-            // buttonSaveДоговор
-            // 
+            
+            
+            
             this.buttonSaveДоговор.Location = new System.Drawing.Point(10, 190);
             this.buttonSaveДоговор.Name = "buttonSaveДоговор";
             this.buttonSaveДоговор.Size = new System.Drawing.Size(180, 23);
@@ -564,9 +564,9 @@
             this.buttonSaveДоговор.Text = "Сохранить";
             this.buttonSaveДоговор.UseVisualStyleBackColor = true;
             this.buttonSaveДоговор.Click += new System.EventHandler(this.buttonSaveДоговор_Click);
-            // 
-            // groupBoxПлатеж
-            // 
+            
+            
+            
             this.groupBoxПлатеж.Controls.Add(this.labelПлатежДоговор);
             this.groupBoxПлатеж.Controls.Add(this.labelПлатежСумма);
             this.groupBoxПлатеж.Controls.Add(this.labelПлатежДатаОплаты);
@@ -580,58 +580,58 @@
             this.groupBoxПлатеж.TabIndex = 6;
             this.groupBoxПлатеж.TabStop = false;
             this.groupBoxПлатеж.Text = "Платеж";
-            // 
-            // labelПлатежДоговор
-            // 
+            
+            
+            
             this.labelПлатежДоговор.AutoSize = true;
             this.labelПлатежДоговор.Location = new System.Drawing.Point(10, 20);
             this.labelПлатежДоговор.Name = "labelПлатежДоговор";
             this.labelПлатежДоговор.Size = new System.Drawing.Size(63, 17);
             this.labelПлатежДоговор.TabIndex = 1;
             this.labelПлатежДоговор.Text = "Договор";
-            // 
-            // labelПлатежСумма
-            // 
+            
+            
+            
             this.labelПлатежСумма.AutoSize = true;
             this.labelПлатежСумма.Location = new System.Drawing.Point(10, 60);
             this.labelПлатежСумма.Name = "labelПлатежСумма";
             this.labelПлатежСумма.Size = new System.Drawing.Size(50, 17);
             this.labelПлатежСумма.TabIndex = 2;
             this.labelПлатежСумма.Text = "Сумма";
-            // 
-            // labelПлатежДатаОплаты
-            // 
+            
+            
+            
             this.labelПлатежДатаОплаты.AutoSize = true;
             this.labelПлатежДатаОплаты.Location = new System.Drawing.Point(10, 100);
             this.labelПлатежДатаОплаты.Name = "labelПлатежДатаОплаты";
             this.labelПлатежДатаОплаты.Size = new System.Drawing.Size(98, 17);
             this.labelПлатежДатаОплаты.TabIndex = 3;
             this.labelПлатежДатаОплаты.Text = "Дата Оплаты";
-            // 
-            // comboBoxПлатежДоговор
-            // 
+            
+            
+            
             this.comboBoxПлатежДоговор.FormattingEnabled = true;
             this.comboBoxПлатежДоговор.Location = new System.Drawing.Point(10, 35);
             this.comboBoxПлатежДоговор.Name = "comboBoxПлатежДоговор";
             this.comboBoxПлатежДоговор.Size = new System.Drawing.Size(180, 24);
             this.comboBoxПлатежДоговор.TabIndex = 4;
-            // 
-            // textBoxПлатежСумма
-            // 
+            
+            
+            
             this.textBoxПлатежСумма.Location = new System.Drawing.Point(10, 75);
             this.textBoxПлатежСумма.Name = "textBoxПлатежСумма";
             this.textBoxПлатежСумма.Size = new System.Drawing.Size(180, 22);
             this.textBoxПлатежСумма.TabIndex = 5;
-            // 
-            // dateTimePickerПлатежДатаОплаты
-            // 
+            
+            
+            
             this.dateTimePickerПлатежДатаОплаты.Location = new System.Drawing.Point(10, 115);
             this.dateTimePickerПлатежДатаОплаты.Name = "dateTimePickerПлатежДатаОплаты";
             this.dateTimePickerПлатежДатаОплаты.Size = new System.Drawing.Size(180, 22);
             this.dateTimePickerПлатежДатаОплаты.TabIndex = 6;
-            // 
-            // buttonSaveПлатеж
-            // 
+            
+            
+            
             this.buttonSaveПлатеж.Location = new System.Drawing.Point(10, 150);
             this.buttonSaveПлатеж.Name = "buttonSaveПлатеж";
             this.buttonSaveПлатеж.Size = new System.Drawing.Size(180, 23);
@@ -639,9 +639,9 @@
             this.buttonSaveПлатеж.Text = "Сохранить";
             this.buttonSaveПлатеж.UseVisualStyleBackColor = true;
             this.buttonSaveПлатеж.Click += new System.EventHandler(this.buttonSaveПлатеж_Click);
-            // 
-            // tabPageViewData
-            // 
+            
+            
+            
             this.tabPageViewData.Controls.Add(this.comboBoxВладельцы);
             this.tabPageViewData.Controls.Add(this.comboBoxДоговоры);
             this.tabPageViewData.Controls.Add(this.dataGridViewВладельцы);
@@ -659,18 +659,18 @@
             this.tabPageViewData.Text = "Просмотр и изменение данных";
             this.tabPageViewData.UseVisualStyleBackColor = true;
             this.tabPageViewData.Click += new System.EventHandler(this.tabPageViewData_Click);
-            // 
-            // comboBoxВладельцы
-            // 
+            
+            
+            
             this.comboBoxВладельцы.FormattingEnabled = true;
             this.comboBoxВладельцы.Location = new System.Drawing.Point(10, 670);
             this.comboBoxВладельцы.Name = "comboBoxВладельцы";
             this.comboBoxВладельцы.Size = new System.Drawing.Size(300, 24);
             this.comboBoxВладельцы.TabIndex = 7;
             this.comboBoxВладельцы.SelectedIndexChanged += new System.EventHandler(this.comboBoxВладельцы_SelectedIndexChanged);
-            // 
-            // dataGridViewВладельцы
-            // 
+            
+            
+            
             this.dataGridViewВладельцы.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewВладельцы.Location = new System.Drawing.Point(10, 20);
             this.dataGridViewВладельцы.Name = "dataGridViewВладельцы";
@@ -678,9 +678,9 @@
             this.dataGridViewВладельцы.TabIndex = 0;
             this.dataGridViewВладельцы.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewВладельцы_CellValueChanged);
             this.dataGridViewВладельцы.SelectionChanged += new System.EventHandler(this.dataGridViewВладельцы_SelectionChanged);
-            // 
-            // dataGridViewДоговоры
-            // 
+            
+            
+            
             this.dataGridViewДоговоры.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewДоговоры.Location = new System.Drawing.Point(10, 234);
             this.dataGridViewДоговоры.Name = "dataGridViewДоговоры";
@@ -688,63 +688,63 @@
             this.dataGridViewДоговоры.TabIndex = 1;
             this.dataGridViewДоговоры.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewДоговоры_CellValueChanged);
             this.dataGridViewДоговоры.SelectionChanged += new System.EventHandler(this.dataGridViewДоговоры_SelectionChanged);
-            // 
-            // dataGridViewПлатежи
-            // 
+            
+            
+            
             this.dataGridViewПлатежи.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewПлатежи.Location = new System.Drawing.Point(445, 234);
             this.dataGridViewПлатежи.Name = "dataGridViewПлатежи";
             this.dataGridViewПлатежи.Size = new System.Drawing.Size(400, 200);
             this.dataGridViewПлатежи.TabIndex = 2;
             this.dataGridViewПлатежи.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewПлатежи_CellValueChanged);
-            // 
-            // dataGridViewСадовоеОбщество
-            // 
+            
+            
+            
             this.dataGridViewСадовоеОбщество.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewСадовоеОбщество.Location = new System.Drawing.Point(445, 20);
             this.dataGridViewСадовоеОбщество.Name = "dataGridViewСадовоеОбщество";
             this.dataGridViewСадовоеОбщество.Size = new System.Drawing.Size(400, 200);
             this.dataGridViewСадовоеОбщество.TabIndex = 3;
             this.dataGridViewСадовоеОбщество.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewСадовоеОбщество_CellValueChanged);
-            // 
-            // dataGridViewТипПочвы
-            // 
+           
+            
+            
             this.dataGridViewТипПочвы.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewТипПочвы.Location = new System.Drawing.Point(873, 20);
             this.dataGridViewТипПочвы.Name = "dataGridViewТипПочвы";
             this.dataGridViewТипПочвы.Size = new System.Drawing.Size(400, 200);
             this.dataGridViewТипПочвы.TabIndex = 4;
             this.dataGridViewТипПочвы.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewТипПочвы_CellValueChanged);
-            // 
-            // dataGridViewТипРельефа
-            // 
+            
+            
+            
             this.dataGridViewТипРельефа.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewТипРельефа.Location = new System.Drawing.Point(873, 234);
             this.dataGridViewТипРельефа.Name = "dataGridViewТипРельефа";
             this.dataGridViewТипРельефа.Size = new System.Drawing.Size(400, 200);
             this.dataGridViewТипРельефа.TabIndex = 5;
             this.dataGridViewТипРельефа.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewТипРельефа_CellValueChanged);
-            // 
-            // dataGridViewУчасток
-            // 
+            
+            
+            
             this.dataGridViewУчасток.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewУчасток.Location = new System.Drawing.Point(351, 450);
             this.dataGridViewУчасток.Name = "dataGridViewУчасток";
             this.dataGridViewУчасток.Size = new System.Drawing.Size(610, 200);
             this.dataGridViewУчасток.TabIndex = 6;
             this.dataGridViewУчасток.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewУчасток_CellValueChanged);
-            // 
-            // comboBoxДоговоры
-            // 
+            
+            
+            
             this.comboBoxДоговоры.FormattingEnabled = true;
             this.comboBoxДоговоры.Location = new System.Drawing.Point(320, 670);
             this.comboBoxДоговоры.Name = "comboBoxДоговоры";
             this.comboBoxДоговоры.Size = new System.Drawing.Size(300, 24);
             this.comboBoxДоговоры.TabIndex = 8;
             this.comboBoxДоговоры.SelectedIndexChanged += new System.EventHandler(this.comboBoxДоговоры_SelectedIndexChanged);
-            // 
-            // Form1
-            // 
+            
+            
+            
             this.ClientSize = new System.Drawing.Size(1328, 761);
             this.Controls.Add(this.tabControl);
             this.Name = "Form1";

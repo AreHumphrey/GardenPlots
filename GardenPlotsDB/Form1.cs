@@ -7,7 +7,8 @@ namespace GardenPlotsDB
 {
     public partial class Form1 : Form
     {
-        private string connectionString = "Server=localhost;Database=GardenPlotsDB;User ID=root;Password=root_password;";
+        private string connectionString =
+            "Server=localhost;Database=GardenPlotsDB;User ID=root;Password=root_password;";
 
         public Form1()
         {
@@ -25,49 +26,41 @@ namespace GardenPlotsDB
             {
                 connection.Open();
 
-                // Load Садовое Общество
                 MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM СадовоеОбщество", connection);
                 DataTable table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewСадовоеОбщество.DataSource = table;
 
-                // Load Тип Рельефа
                 adapter = new MySqlDataAdapter("SELECT * FROM ТипРельефа", connection);
                 table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewТипРельефа.DataSource = table;
 
-                // Load Тип Почвы
                 adapter = new MySqlDataAdapter("SELECT * FROM ТипПочвы", connection);
                 table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewТипПочвы.DataSource = table;
 
-                // Load Владелец Участка
                 adapter = new MySqlDataAdapter("SELECT * FROM ВладелецУчастка", connection);
                 table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewВладельцы.DataSource = table;
 
-                // Load Участок
                 adapter = new MySqlDataAdapter("SELECT * FROM Участок", connection);
                 table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewУчасток.DataSource = table;
 
-                // Load Договор
                 adapter = new MySqlDataAdapter("SELECT * FROM Договор", connection);
                 table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewДоговоры.DataSource = table;
 
-                // Load Платеж
                 adapter = new MySqlDataAdapter("SELECT * FROM Платеж", connection);
                 table = new DataTable();
                 adapter.Fill(table);
                 dataGridViewПлатежи.DataSource = table;
 
-                // Load ComboBox items
                 comboBoxУчастокСадовоеОбщество.DataSource = dataGridViewСадовоеОбщество.DataSource;
                 comboBoxУчастокСадовоеОбщество.DisplayMember = "название";
                 comboBoxУчастокСадовоеОбщество.ValueMember = "код";
@@ -107,7 +100,10 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO СадовоеОбщество (председатель, название) VALUES (@председатель, @название)", connection);
+                MySqlCommand command =
+                    new MySqlCommand(
+                        "INSERT INTO СадовоеОбщество (председатель, название) VALUES (@председатель, @название)",
+                        connection);
                 command.Parameters.AddWithValue("@председатель", textBoxСадовоеОбществоПредседатель.Text);
                 command.Parameters.AddWithValue("@название", textBoxСадовоеОбществоНазвание.Text);
                 command.ExecuteNonQuery();
@@ -120,7 +116,8 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO ТипРельефа (типРельефа) VALUES (@типРельефа)", connection);
+                MySqlCommand command = new MySqlCommand("INSERT INTO ТипРельефа (типРельефа) VALUES (@типРельефа)",
+                    connection);
                 command.Parameters.AddWithValue("@типРельефа", textBoxТипРельефаНазвание.Text);
                 command.ExecuteNonQuery();
                 LoadData();
@@ -132,7 +129,8 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO ТипПочвы (типПочвы) VALUES (@типПочвы)", connection);
+                MySqlCommand command =
+                    new MySqlCommand("INSERT INTO ТипПочвы (типПочвы) VALUES (@типПочвы)", connection);
                 command.Parameters.AddWithValue("@типПочвы", textBoxТипПочвыНазвание.Text);
                 command.ExecuteNonQuery();
                 LoadData();
@@ -144,7 +142,10 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO ВладелецУчастка (фамилия, имя, адрес, номерТелефона) VALUES (@фамилия, @имя, @адрес, @номерТелефона)", connection);
+                MySqlCommand command =
+                    new MySqlCommand(
+                        "INSERT INTO ВладелецУчастка (фамилия, имя, адрес, номерТелефона) VALUES (@фамилия, @имя, @адрес, @номерТелефона)",
+                        connection);
                 command.Parameters.AddWithValue("@фамилия", textBoxВладелецФамилия.Text);
                 command.Parameters.AddWithValue("@имя", textBoxВладелецИмя.Text);
                 command.Parameters.AddWithValue("@адрес", textBoxВладелецАдрес.Text);
@@ -159,7 +160,10 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO Участок (площадь, статусУчастка, кодСадовоеОбщество, кодТипРельефа, кодТипПочвы) VALUES (@площадь, @статусУчастка, @кодСадовоеОбщество, @кодТипРельефа, @кодТипПочвы)", connection);
+                MySqlCommand command =
+                    new MySqlCommand(
+                        "INSERT INTO Участок (площадь, статусУчастка, кодСадовоеОбщество, кодТипРельефа, кодТипПочвы) VALUES (@площадь, @статусУчастка, @кодСадовоеОбщество, @кодТипРельефа, @кодТипПочвы)",
+                        connection);
                 command.Parameters.AddWithValue("@площадь", textBoxУчастокПлощадь.Text);
                 command.Parameters.AddWithValue("@статусУчастка", comboBoxУчастокСтатус.Text);
                 command.Parameters.AddWithValue("@кодСадовоеОбщество", comboBoxУчастокСадовоеОбщество.SelectedValue);
@@ -175,7 +179,10 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO Договор (датаНачала, датаОкончания, кодУчастка, кодВладелецУчастка) VALUES (@датаНачала, @датаОкончания, @кодУчастка, @кодВладелецУчастка)", connection);
+                MySqlCommand command =
+                    new MySqlCommand(
+                        "INSERT INTO Договор (датаНачала, датаОкончания, кодУчастка, кодВладелецУчастка) VALUES (@датаНачала, @датаОкончания, @кодУчастка, @кодВладелецУчастка)",
+                        connection);
                 command.Parameters.AddWithValue("@датаНачала", dateTimePickerДоговорДатаНачала.Value);
                 command.Parameters.AddWithValue("@датаОкончания", dateTimePickerДоговорДатаОкончания.Value);
                 command.Parameters.AddWithValue("@кодУчастка", comboBoxДоговорУчасток.SelectedValue);
@@ -190,7 +197,10 @@ namespace GardenPlotsDB
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("INSERT INTO Платеж (сумма, датаОплаты, кодДоговора) VALUES (@сумма, @датаОплаты, @кодДоговора)", connection);
+                MySqlCommand command =
+                    new MySqlCommand(
+                        "INSERT INTO Платеж (сумма, датаОплаты, кодДоговора) VALUES (@сумма, @датаОплаты, @кодДоговора)",
+                        connection);
                 command.Parameters.AddWithValue("@сумма", textBoxПлатежСумма.Text);
                 command.Parameters.AddWithValue("@датаОплаты", dateTimePickerПлатежДатаОплаты.Value);
                 command.Parameters.AddWithValue("@кодДоговора", comboBoxПлатежДоговор.SelectedValue);
@@ -207,7 +217,9 @@ namespace GardenPlotsDB
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM Договор WHERE кодВладелецУчастка = @кодВладелецУчастка", connection);
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter("SELECT * FROM Договор WHERE кодВладелецУчастка = @кодВладелецУчастка",
+                            connection);
                     adapter.SelectCommand.Parameters.AddWithValue("@кодВладелецУчастка", владелецId);
                     DataTable table = new DataTable();
                     adapter.Fill(table);
@@ -224,7 +236,8 @@ namespace GardenPlotsDB
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM Платеж WHERE кодДоговора = @кодДоговора", connection);
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter("SELECT * FROM Платеж WHERE кодДоговора = @кодДоговора", connection);
                     adapter.SelectCommand.Parameters.AddWithValue("@кодДоговора", договорId);
                     DataTable table = new DataTable();
                     adapter.Fill(table);
@@ -241,7 +254,9 @@ namespace GardenPlotsDB
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM Договор WHERE кодВладелецУчастка = @кодВладелецУчастка", connection);
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter("SELECT * FROM Договор WHERE кодВладелецУчастка = @кодВладелецУчастка",
+                            connection);
                     adapter.SelectCommand.Parameters.AddWithValue("@кодВладелецУчастка", владелецId);
                     DataTable table = new DataTable();
                     adapter.Fill(table);
@@ -258,7 +273,8 @@ namespace GardenPlotsDB
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM Платеж WHERE кодДоговора = @кодДоговора", connection);
+                    MySqlDataAdapter adapter =
+                        new MySqlDataAdapter("SELECT * FROM Платеж WHERE кодДоговора = @кодДоговора", connection);
                     adapter.SelectCommand.Parameters.AddWithValue("@кодДоговора", договорId);
                     DataTable table = new DataTable();
                     adapter.Fill(table);
@@ -323,8 +339,10 @@ namespace GardenPlotsDB
                         {
                             command.Parameters.AddWithValue("@values", cell.Value);
                         }
+
                         command.ExecuteNonQuery();
                     }
+
                     transaction.Commit();
                 }
                 catch (Exception ex)
@@ -335,8 +353,8 @@ namespace GardenPlotsDB
                     }
                     catch
                     {
-                        // Handle any errors that may have occurred on the server that would cause the rollback to fail.
                     }
+
                     MessageBox.Show($"Error updating {tableName}: {ex.Message}");
                 }
             }
